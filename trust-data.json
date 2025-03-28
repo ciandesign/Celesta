@@ -1,0 +1,39 @@
+{
+    "trustItems": [
+        {
+            "icon": "✓",
+            "iconColor": "#1E3A8A",
+            "title": "Trusted Quality",
+            "titleColor": "#1E3A8A",
+            "description": "Medicines sourced from certified pharmacies only"
+        },
+        {
+            "icon": "🔒",
+            "iconColor": "#16A34A",
+            "title": "Safe & Secure",
+            "titleColor": "#16A34A",
+            "description": "256-bit SSL encryption for secure payments & data privacy"
+        },
+        {
+            "icon": "♥",
+            "iconColor": "#F97316",
+            "title": "Care with Savings",
+            "titleColor": "#F97316",
+            "description": "Affordable prices with up to 60% off + free health consultations"
+        },
+        {
+            "icon": "🚚",
+            "iconColor": "#2DD4BF",
+            "title": "Fast Delivery",
+            "titleColor": "#2DD4BF",
+            "description": "Same-day delivery in select cities for urgent needs"
+        },
+        {
+            "icon": "👨‍⚕️",
+            "iconColor": "#8B5CF6",
+            "title": "Expert Support",
+            "titleColor": "#8B5CF6",
+            "description": "24/7 access to pharmacists for guidance"
+        }
+    ]
+}

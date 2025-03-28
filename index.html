@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celesta Healthcare Pvt Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="C:/Users/ADMIN/Desktop/website sanple/assets/logo.png" alt="Celesta Healthcare Logo" class="company-logo">
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown-parent">
+                        <a href="#">Medicine</a>
+                        <div class="dropdown-menu">
+                            <a href="#">All Medicines</a>
+                            <a href="#">Buy Again</a>
+                            <a href="#">Order Online</a>
+                        </div>
+                    </li>
+                    <li class="dropdown-parent">
+                        <a href="#">Wellness</a>
+                        <div class="dropdown-menu">
+                            <a href="#">Nutrition</a>
+                            <a href="#">Fitness</a>
+                            <a href="#">Mental Health</a>
+                            <a href="#">Personal Care</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Beauty</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#" class="action-link login-signup">
+                    <img src="C:/Users/ADMIN/Desktop/website sanple/assets/user.png" alt="User Icon" class="icon"> Login/Sign Up
+                </a>
+                <a href="#" class="action-link">
+                    <img src="C:/Users/ADMIN/Desktop/website sanple/assets/cart.png" alt="Cart Icon" class="icon"> Cart
+                </a>
+            </div>
+        </div>
+        <div class="search-section">
+            <div class="search-bar">
+                <input type="text" placeholder="General Search">
+                <button class="search-btn">
+                    <img src="C:/Users/ADMIN/Desktop/website sanple/assets/search.png" alt="Search Icon" class="icon">
+                </button>
+                <div class="dropdown">
+                    <p>Search By -</p>
+                    <ul>
+                        <li>Brand Name</li>
+                        <li>Company Name</li>
+                        <li>Generic Name</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <div class="dropdown-parent">
+                    <button class="btn upload" id="upload-btn">
+                        <img src="C:/Users/ADMIN/Desktop/website sanple/assets/upload.png" alt="Upload Icon" class="icon"> Upload Prescription
+                    </button>
+                    <div class="dropdown-menu upload-dropdown" id="upload-dropdown">
+                        <a href="#">Upload from Device</a>
+                        <a href="#">Click Photo</a>
+                    </div>
+                </div>
+                <button class="btn whatsapp" onclick="window.location.href='https://wa.me/917620742114'">
+                    <img src="C:/Users/ADMIN/Desktop/website sanple/assets/whatsapp.png" alt="WhatsApp Icon" class="icon"> WhatsApp
+                </button>
+                <button class="btn call" onclick="window.location.href='tel:+917620742114'">
+                    <img src="C:/Users/ADMIN/Desktop/website sanple/assets/phone.png" alt="Phone Icon" class="icon"> Call
+                </button>
+                <button class="btn doctor">
+                    <img src="C:/Users/ADMIN/Desktop/website sanple/assets/doctor.png" alt="Doctor Icon" class="icon"> Find Nearby Doctor
+                </button>
+                <button class="btn products">
+                    <img src="C:/Users/ADMIN/Desktop/website sanple/assets/products.png" alt="Products Icon" class="icon"> Display All Products
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="products-container">
+            <!-- Product cards will be generated here -->
+        </div>
+    </main>
+
+    <!-- Trust Section -->
+    <section class="trust-section" id="trust-section">
+        <!-- Trust items will be dynamically populated via JavaScript -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <img src="C:/Users/ADMIN/Desktop/website sanple/assets/logo-white.png" alt="Celesta Healthcare Logo" class="company-logo">
+                <p>Caring for You</p>
+            </div>
+            <div class="footer-column links-column">
+                <div class="links-subcolumn">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <div class="links-subcolumn">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Returns</a>
+                </div>
+            </div>
+            <div class="footer-column social-column">
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <img src="C:/Users/ADMIN/Desktop/website sanple/assets/twitter.png" alt="Twitter Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="C:/Users/ADMIN/Desktop/website sanple/assets/facebook.png" alt="Facebook Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="C:/Users/ADMIN/Desktop/website sanple/assets/instagram.png" alt="Instagram Icon">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="C:/Users/ADMIN/Desktop/website sanple/assets/linkedin.png" alt="LinkedIn Icon">
+                    </a>
+                </div>
+                <div class="app-links">
+                    <a href="#" class="app-button">
+                        <img src="C:/Users/ADMIN/Desktop/website sanple/assets/google-play.png" alt="Get it on Google Play">
+                    </a>
+                    <a href="#" class="app-button">
+                        <img src="C:/Users/ADMIN/Desktop/website sanple/assets/app-store.png" alt="Download on App Store">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Celesta Healthcare Pvt. Ltd. All rights reserved. All medicines are dispensed in compliance with the Drugs and Cosmetics Act, 1940 and Drugs and Cosmetics Rules, 1945. We do not process requests for Schedule X and habit forming drugs.</p>
+        </div>
+    </footer>
+
+    <!-- Login/Signup Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <h2>Login / Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Email or Phone" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Load Trust Section Data
+        fetch('trust-data.json')
+            .then(response => response.json())
+            .then(data => {
+                const trustSection = document.getElementById('trust-section');
+                data.trustItems.forEach(item => {
+                    const trustItem = document.createElement('div');
+                    trustItem.className = 'trust-item';
+                    trustItem.innerHTML = `
+                        <div class="trust-icon" style="background-color: ${item.iconColor}">${item.icon}</div>
+                        <h3 style="color: ${item.titleColor}">${item.title}</h3>
+                        <p>${item.description}</p>
+                    `;
+                    trustSection.appendChild(trustItem);
+                });
+            });
+
+        // Toggle Search Dropdown
+        const searchInput = document.querySelector('.search-bar input');
+        const searchDropdown = document.querySelector('.search-bar .dropdown');
+        searchInput.addEventListener('click', () => {
+            searchDropdown.style.display = searchDropdown.style.display === 'block' ? 'none' : 'block';
+        });
+
+        // Product List
+        const products = [
+            "Aphyline N Tab 10x10A", "Aphyline Trio Tab 10x1x10A", "Ascoci BG Tab 10x10B", "Binomin Forte Tab 10x10Alu Strip",
+            "Biocold 500 Tab 10x10B", "Biocold Forte Tab 10x10B", "Bradilex -LS Drop 15ml", "BUDIRESP 0.5 4 x 5 x 2 ML RESPULE CIAN",
+            "Celcoba 1500 Inj.", "Celcoba 2500 Inj.", "Celcoba Softgel Cap 1x10B", "Celcoplex Forte Tab 10x10A",
+            "Celcoral Forte Tab 10x10B", "Celegra Plus Tab 10x10A", "Ciabet 100 Tab 10x10A", "Ciadine Ointment 15gm",
+            "Ciamint Softgel Cap 10x10B", "Cian Citicoline P Tab 10x10A", "Cian PVG Tab 10x10A", "Ciancad Tab 10x10A",
+            "Ciancal Total Tab 10x10B", "Ciancold Active 10X10A Tab", "Ciancold drop 15ml", "Cianosyl Tab 10x1x10A",
+            "Ciantol E Tab 10x10A", "Ciantol Tab 10x10A", "Ciawell Syrup 100ml", "Dobecian Cream 30gm",
+            "DOLOCEL INJ", "Euslim 120 Cap 10x10A", "Ezian Plus Softgel Cap 10x10B", "Femina Syrup 200ml",
+            "FemRyn_Intimate Vaginal Wash", "Fexota-40 Tab 10x10A", "Flucerae 5 Tab 10X10A", "Flucerae 10 Tab 10x10A",
+            "Hem Rose BG Tab 10x10B", "Ilacel 10X10A Tab", "Jointy Plus MR Gel 15gm", "Lancian OD Tab 10X10B",
+            "LEVROVA  4 x 5 x 2.5 ML RESPULE CIAN", "LEVROVA-IP 4 x 5 x 2.5 ML RESPULE CIAN", "Levzia Tab 10x10B",
+            "Lignocia Gel 10gm", "Livamarin Plus Tab 10x1x10 Alu Strip", "Lu-Star Cream 30gm", "Metcian 1000 Tab 10x10B",
+            "NEBUCLER 3% 5 x 5 x 4 ML RESPULE CIAN", "Ovasims Plus Tab 10x10Alu Strip", "Ovasims Tab 10x1x10A",
+            "Panci 80 10x10A Tab", "Panci CSR Cap 10x10Alu Strip", "PHA-10 Gold Cap 10x10A", "Rabtab ISR Cap 10x10Alu Strip",
+            "Tansar CD 40 Tab 10x10A", "Tendocian C2 Tab 10x10A", "Tramacel-P Junior Tab 10x15B", "Tryptimol IV Injection CtoC",
+            "Ud Cian 450 Tab 10X10A", "UD Cian Tab 10x10B"
+        ];
+
+        // Generate Product Cards
+        const productsContainer = document.querySelector('.products-container');
+        products.forEach(product => {
+            const productCard = document.createElement('div');
+            productCard.className = 'product-card';
+            productCard.innerHTML = `
+                <img src="C:/Users/ADMIN/Desktop/website sanple/assets/product-images/${product}.png" alt="${product}" class="product-image">
+                <h3>${product}</h3>
+                <p class="price">₹${(Math.random() * 1000 + 50).toFixed(2)}</p>
+                <button class="add-to-cart">Add to Cart</button>
+            `;
+            productsContainer.appendChild(productCard);
+        });
+
+        // Login/Signup Modal
+        const modal = document.getElementById('login-modal');
+        const loginBtn = document.querySelector('.login-signup');
+        const closeBtn = document.querySelector('.close-btn');
+        loginBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            modal.style.display = 'block';
+        });
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        // Upload Prescription Dropdown Toggle
+        const uploadBtn = document.getElementById('upload-btn');
+        const uploadDropdown = document.getElementById('upload-dropdown');
+        uploadBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            uploadDropdown.style.display = uploadDropdown.style.display === 'block' ? 'none' : 'block';
+        });
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!uploadBtn.contains(e.target) && !uploadDropdown.contains(e.target)) {
+                uploadDropdown.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
